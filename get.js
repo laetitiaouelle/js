@@ -17,7 +17,7 @@ const sourceObject = {
 }
 
 // Your code :
-
+const get = best => sourceObject[best]
 //* Begin of tests
 const assert = require('assert')
 

@@ -12,6 +12,11 @@
  */
 
 // Your code :
+const a = 11
+const sign = a => {
+    if (!a) return 0
+    return a > 0 ? 1 : -1
+}
 
 //* Begin of tests
 const assert = require('assert')

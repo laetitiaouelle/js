@@ -8,8 +8,7 @@
  */
 
 // Your code :
-
-//* Begin of tests
+const id = array => array
 const assert = require('assert')
 
 assert.strictEqual(typeof id, 'function')

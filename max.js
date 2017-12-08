@@ -11,7 +11,9 @@
  */
 
 // Your code :
-
+const a = 13
+const b = 157
+const max = ( a, b ) => a>b? a : b
 //* Begin of tests
 const assert = require('assert')
 

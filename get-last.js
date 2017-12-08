@@ -7,7 +7,7 @@
  * @notions Data-Structures, Get
  * @next id
  */
-
+const getLast = you => you[ you.length - 1]
 // Your code :
 
 //* Begin of tests

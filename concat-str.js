@@ -8,8 +8,9 @@
  */
 
 // Your code :
-
-//* Begin of tests
+const a = 'laetitia'
+const b = 'christelle'
+const concatStr = ( a, b ) => a + b
 const assert = require('assert')
 
 assert.strictEqual(typeof concatStr, 'function', 'Should be a function')
