@@ -9,7 +9,10 @@
 
 
 //* Begin of tests
+<<<<<<< HEAD
 const sentence = [a, b, c, d]
+=======
+>>>>>>> d8f67902a0ab3a59d56bb064e9d43fdd4aa81cf9
 const assert = require('assert')
 
 assert.strictEqual(typeof sentence, 'function')

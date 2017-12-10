@@ -9,6 +9,7 @@
 
 
 //* Begin of tests
+<<<<<<< HEAD
 const tab = [2, 2, 0, 233]
 const total = tab => {
     let i = 0
@@ -19,6 +20,8 @@ const total = tab => {
     }
     return sum
 }
+=======
+>>>>>>> d8f67902a0ab3a59d56bb064e9d43fdd4aa81cf9
 const assert = require('assert')
 
 assert.strictEqual(typeof total, 'function')
