@@ -10,7 +10,6 @@
  */
 
 //* Begin of tests
-<<<<<<< HEAD
 const a = '34'
 const b = 10
 const repeat = (a, b) => {
@@ -23,8 +22,6 @@ const repeat = (a, b) => {
     return result
 }
 console.log(repeat('je suis belle    ', 5))
-=======
->>>>>>> d8f67902a0ab3a59d56bb064e9d43fdd4aa81cf9
 const assert = require('assert')
 
 assert.strictEqual(typeof repeat, 'function')

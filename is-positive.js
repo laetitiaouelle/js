@@ -11,6 +11,7 @@
 
 //* Begin of tests
 <<<<<<< HEAD
+<<<<<<< HEAD
 const c = -12
 const isPositive = c => {
     if( c > 0){
@@ -20,6 +21,8 @@ const isPositive = c => {
         return false
     }
 }
+=======
+>>>>>>> d8f67902a0ab3a59d56bb064e9d43fdd4aa81cf9
 =======
 >>>>>>> d8f67902a0ab3a59d56bb064e9d43fdd4aa81cf9
 const assert = require('assert')
