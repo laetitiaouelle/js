@@ -19,4 +19,28 @@
 
 
 // You must write your own tests
+<<<<<<< HEAD
 throw Error('No tests !')
+=======
+const fizzBuzz = tab =>{
+    let count = 0
+    while( count < 100 ){
+        if( tab[count] % 3 == 0){
+            return 'fizz'
+        }
+        else if ( tab[count] % 5 == 0){
+            return 'buzz'
+        }
+        else if((tab[count] % 3 == 0) && (tab[count] % 5 == 0)){
+            return 'fizzBuzz'
+        }
+        else{
+            return tab[i]
+        }
+         count++
+    }
+}
+console.log(fizzBuzz([ 15]))
+//throw Error('No tests !')
+ 
+>>>>>>> a581b18dc1f038ad7273538b8dddbb4e0cc6eef6
