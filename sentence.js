@@ -9,7 +9,10 @@
 
 
 //* Begin of tests
-const sentence = [a, b, c, d]
+const sentence = b => {
+    const result = b.join(' ')
+    return result
+}
 const assert = require('assert')
 
 assert.strictEqual(typeof sentence, 'function')

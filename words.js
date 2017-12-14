@@ -10,7 +10,10 @@
  */
 
 //* Begin of tests
- const words = stringMe => stringMe.chartArt[]
+ const words = b => {
+     const res = b.split(' ')
+     return res
+ }
    
  console.log(words('a b c'))
 
