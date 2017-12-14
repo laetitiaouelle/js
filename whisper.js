@@ -6,6 +6,9 @@
  *
  * @next yell
  */
-
+const whisper = str =>{
+  const rest = str.toLowerCase(''')
+  return rest
+}
 // You must write your own tests
 throw Error('No tests !')
